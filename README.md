@@ -1,1 +1,2 @@
 # PracticaJs-Stella
+Máximo STELLA
