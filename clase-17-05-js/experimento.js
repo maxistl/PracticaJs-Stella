@@ -22,10 +22,24 @@ console.log (resultadoGracias)
 
 
 
-let deportistaProfesional = {
-    nombreUsuario: `${nombre}`,
-    edadUsuario: `${edad}`,
-    fanDeportes :`${resultadoDeporte},
-    profesional: function () 
 
+
+let deportistaProfesional = {
+    nombreUsuario: nombre,
+    edadUsuario: edad,
+    fanDeportes :resultadoDeporte,
+    
+    profesional: function () {
+    if (this.fanDeportes == true){
+        console.log("Sí, soy fan de los deportes")
+    } else {
+        console.log("No, no soy fan de los deportes")
+        }
 }
+}
+deportistaProfesional.profesional()
+
+
+
+
+
