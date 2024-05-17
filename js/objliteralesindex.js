@@ -65,18 +65,16 @@ let Hulk = {
     equipo: "Avengers",
     poderes: ["Aplastar", "Gritar", "Golpear"],
     energia: 100,
-    getPoder: function(num) {
+    getPoder: function(num2) {
         this.energia = this.energia - 10;
-        return "Poder Elegido de", + this.nombre, ":", + this.poderes[num], "Energía restante:" ,+ this.energia,"";
+        return "Poder Elegido de", + this.nombre, ":", + this.poderes[num2], "Energía restante:" ,+ this.energia,"";
     },
 }
 let num1 = 1
 console.log(ironMan.getPoder(num1));
 
-
-console.log(Hulk.getPoder(0));
-console.log(Hulk.getPoder(2));
-console.log(Hulk.getPoder(1));
+let num2 = 0
+console.log(Hulk.getPoder(num2));
 
 
 
