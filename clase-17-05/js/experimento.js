@@ -38,8 +38,3 @@ let deportistaProfesional = {
 }
 }
 deportistaProfesional.profesional()
-
-
-
-
-

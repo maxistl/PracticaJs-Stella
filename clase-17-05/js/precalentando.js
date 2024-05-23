@@ -6,9 +6,3 @@ if (resultado == true) { //si pongo (resultado) solo, lo toma como true directam
 } else {
     alert("Que bueno que te quedes. Va a llover mucho hoy.")
 }
-
-
-
-
-
-

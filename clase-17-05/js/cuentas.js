@@ -11,4 +11,3 @@ function multiplicar(n1,n2){
 
 let resultadoMultiplicacion = multiplicar(numero1,numero2)
 console.log(resultadoMultiplicacion)
-
